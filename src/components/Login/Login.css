@@ -1,0 +1,38 @@
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-heading{
+    color: #00aade;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+    width: 250px;
+    height: 220px;
+    background-color: #f2f2f2;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+input[type='text'],input[type='password']{
+    width: 240px;
+    padding: 5px;
+}
+
+.btn{
+    background-color: #00c3ff;
+    width: 110px;
+    padding: 8px 12px;
+    border: none;
+    margin: 18px 0;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #00aade;
+}
